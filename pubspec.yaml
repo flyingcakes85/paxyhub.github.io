@@ -2,8 +2,10 @@ name: minimal
 description: A minimalistic Flutter website template for blogs and portfolios.
 version: 1.3.0
 
+# environment:
+#   sdk: '>=2.17.0 <3.0.0'
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: '>=2.17.0'
 
 dependencies:
   flutter:
