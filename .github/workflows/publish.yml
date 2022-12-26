@@ -28,17 +28,19 @@ jobs:
     steps:
       - name: 🎟 Checkout Git Repository
         id: checkout_repository_step 
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
       - name: 🧰 Install Flutter Toolchain
-        uses: subosito/flutter-action@v2.3.0
+        uses: subosito/flutter-action@v2
         with:
-          channel: stable
+          channel: dev
       - name: 🛠 Build Website
         id: build_step
         run: |
-          flutter build web --release 
+          flutter pub get
+          flutter test
+          flutter build web
       - name: ⬆ Upload Website Artifact
         id: upload_website_step        
         uses: actions/upload-pages-artifact@v1
