@@ -11,15 +11,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: recursive
-          token: ${{ secrets.PAT }}
       - uses: subosito/flutter-action@v2.3.0
         with:
           channel: stable
-      - name: Clone deployment repo
-        run: |
-          git clone --single-branch "https://${{ secrets.PAT }}@github.com/searchy2/Demo.git" "clone_dir"
-          rm -rf clone_dir/flutterwebsites/minimal
-          mkdir -p clone_dir/flutterwebsites/minimal
       - name: Build
         run: |
           flutter build web --release --base-href /flutterwebsites/minimal/
