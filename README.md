@@ -3,6 +3,7 @@
 [![Discord Server](https://dcbadge.vercel.app/api/server/heVuWyRxn2?style=flat)](https://discord.gg/heVuWyRxn2)
 [![GitHub License](https://img.shields.io/github/license/paxyhub/paxyhub.github.io)](https://www.mozilla.org/en-US/MPL/)
 [![GitHub top language](https://img.shields.io/github/languages/top/PaxyHub/paxyhub.github.io)](https://www.rust-lang.org/)
+[![🌎 Publish](https://github.com/PaxyHub/paxyhub.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/PaxyHub/paxyhub.github.io/actions/workflows/publish.yml)
 
 ## Table of Contents
 
