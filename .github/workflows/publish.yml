@@ -1,13 +1,9 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: ✈ Deploy
-
 on:
-  # Runs on pushes targeting the default branch
+  workflow_dispatch:
   push:
     branches: ["master"]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+name: 🌎 Publish
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -21,9 +17,12 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
+  build:
+    name: 🏗 Build
+    uses: ./.github/workflows/build.yml
   deploy:
     name: ✈ Deploy
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
