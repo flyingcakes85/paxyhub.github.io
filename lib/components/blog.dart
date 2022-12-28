@@ -348,7 +348,7 @@ class MenuBar extends StatelessWidget {
                 splashColor: Colors.transparent,
                 onTap: () => Navigator.popUntil(
                     context, ModalRoute.withName(Navigator.defaultRouteName)),
-                child: Text("MINIMAL",
+                child: Text("PAXYHUB",
                     style: GoogleFonts.montserrat(
                         color: textPrimary,
                         fontSize: 30,

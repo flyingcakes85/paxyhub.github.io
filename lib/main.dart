@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         return Routes.fadeThrough(settings, (context) {
           switch (settings.name) {
             case Routes.home:
-              return const ListPage();
+              return const HomePage();
             case Routes.post:
               return const PostPage();
             case Routes.style:
