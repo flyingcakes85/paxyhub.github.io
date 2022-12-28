@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minimal/components/components.dart';
+import 'package:paxyhub/components/components.dart';
 
 // TODO Replace with object model.
 const String listItemTitleText = "A BETTER BLOG FOR WRITING";

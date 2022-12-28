@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minimal/components/components.dart';
+import 'package:paxyhub/components/components.dart';
 
 class TypographyPage extends StatelessWidget {
   const TypographyPage({Key? key}) : super(key: key);

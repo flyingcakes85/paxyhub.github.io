@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minimal/components/components.dart';
+import 'package:paxyhub/components/components.dart';
 
 class PostPage extends StatelessWidget {
   const PostPage({Key? key}) : super(key: key);

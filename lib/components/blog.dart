@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:minimal/components/color.dart';
-import 'package:minimal/components/spacing.dart';
-import 'package:minimal/components/text.dart';
-import 'package:minimal/components/typography.dart';
-import 'package:minimal/routes.dart';
+import 'package:paxyhub/components/color.dart';
+import 'package:paxyhub/components/spacing.dart';
+import 'package:paxyhub/components/text.dart';
+import 'package:paxyhub/components/typography.dart';
+import 'package:paxyhub/routes.dart';
 
 class ImageWrapper extends StatelessWidget {
   final String image;

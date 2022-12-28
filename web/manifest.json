@@ -1,11 +1,11 @@
 {
-    "name": "Minimal",
-    "short_name": "Minimal",
+    "name": "PaxyHub",
+    "short_name": "PaxyHub",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
-    "description": "A minimalistic Flutter website template for blogs and portfolios.",
+    "description": "Homepage for the Paxy Package Manager",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

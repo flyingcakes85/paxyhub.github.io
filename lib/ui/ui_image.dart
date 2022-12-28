@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:loading_gifs/loading_gifs.dart';
-import 'package:minimal/utils/utils_image.dart';
+import 'package:paxyhub/utils/utils_image.dart';
 
 class ImageFixedWidth extends StatefulWidget {
   static const String name = 'ImageFixedWidth';

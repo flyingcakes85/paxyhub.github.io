@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:minimal/components/spacing.dart';
-import 'package:minimal/components/typography.dart';
+import 'package:paxyhub/components/spacing.dart';
+import 'package:paxyhub/components/typography.dart';
 
 import 'color.dart';
 

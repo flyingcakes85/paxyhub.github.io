@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:minimal/pages/pages.dart';
-import 'package:minimal/routes.dart';
+import 'package:paxyhub/pages/pages.dart';
+import 'package:paxyhub/routes.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 void main() {
