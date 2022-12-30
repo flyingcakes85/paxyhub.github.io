@@ -76,46 +76,11 @@ class HomePage extends StatelessWidget {
                   ),
                   Row(
                     mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Card(
-                        elevation: 3,
-                        child: Container(
-                          width: 250,
-                          height: 120,
-                          padding: EdgeInsets.all(10.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Padding(
-                                padding: EdgeInsets.all(12.0),
-                                child: Icon(Icons.archive),
-                              ),
-                              Flexible(
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.start,
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Align(
-                                      alignment: Alignment.centerLeft,
-                                      child: SelectableText(
-                                        "Package 1",
-                                        style: headlineSecondaryTextStyle,
-                                      ),
-                                    ),
-                                    SizedBox(height: 4),
-                                    Text(
-                                      "This is a package description. This package helps you get your work done.",
-                                      overflow: TextOverflow.clip,
-                                      maxLines: 3,
-                                      style: subtitleTextStyle,
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
+                    children: const [
+                      PackageCard(
+                          packageName: "Package 1",
+                          packageDescription:
+                              "Package Description. It helps you get your work done"),
                     ],
                   ),
                   divider,
